@@ -1,0 +1,18 @@
+
+identifiers = (alpha|_).(dig|alpha|_)*
+INT = (sign)?.dig+
+FLOAT = (sign)?.dig+.'.'.dig+
+STRING = ".[^"\n]*."
+
+SEPARTEORS = (|)|'.'|;|[|]|,|{|}
+OPERATORS = +|-|*|/|=
+comparison = (<|>|:).(=)?|!.=
+
+
+alpha = [a-zA-Z]
+sign = +|-
+dig = [0-9]
+
+
+
+
